@@ -1,0 +1,260 @@
+.bg-gray {
+    background: rgb(43, 42, 42);
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.login-register-bg {
+    background: #131212;
+    width: 25rem;
+    height: 55vh;
+
+}
+
+.texto-artistas {
+    font-size: 34px;
+}
+
+.font-color {
+    color: white;
+}
+
+.welcome-back {
+    color: #13aa52;
+}
+
+.border-test {
+    margin: 5px;
+    background: rgb(43, 42, 42);
+
+}
+
+.fav-artistas {
+    background-color: rgb(64, 63, 116);
+    border-radius: 25px;
+    height: 4rem;
+}
+
+.album-esuchados {
+    background-color: rgb(64, 63, 116);
+    border-radius: 15px;
+}
+
+.parent {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.navbar-div {
+    grid-area: 1 / 1 / 12 / 2;
+
+}
+
+.border-radius {
+    border-radius: 15px;
+}
+
+.player-div {
+    grid-area: 12 / 1 / 13 / 8;
+}
+
+.artist-div {
+    grid-area: 1 / 2 / 7 / 8;
+}
+
+.album-div {
+    grid-area: 7 / 2 / 12 / 8;
+}
+
+.album-height {
+    height: 70%;
+}
+
+.icons {
+    object-fit: contain;
+    width: 1rem;
+    height: 1rem;
+}
+
+.line-icon {
+    object-fit: contain;
+    width: 2.5rem;
+    height: 1rem;
+}
+
+.logo {
+    object-fit: contain;
+    width: 7.5rem;
+    height: 3.5rem;
+
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-left: 0.25rem;
+    background: rgb(43, 42, 42);
+}
+
+.login-list {
+    height: 80%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.buttons {
+    display: flex;
+    margin: -32px 25px 0;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.li-margin {
+    margin-left: 0.75rem;
+}
+
+.margin-playlist {
+    margin-left: 0.70rem;
+
+}
+
+.margin-icons {
+    margin-left: 20rem;
+    margin-right: 22rem;
+}
+
+.button-login {
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-register {
+    background-color: #ffffff;
+    border: 2.5px solid #13aa52;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-37:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+    .button-37 {
+        padding: 10px 30px;
+    }
+}
+
+.album-img {
+    object-fit: contain;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.buttons-img {
+    object-fit: contain;
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn-bg {
+    background: none;
+    border: none;
+}
+
+.song {
+    font-size: 1.25rem;
+
+}
+
+.artist {
+    font-weight: 650;
+}
+
+.playlist-img {
+    object-fit: contain;
+    border-radius: 15px;
+    width: 6rem;
+    height: 6rem;
+}
+
+.p-play {
+    margin: 0;
+}
+
+.artist-img {
+    margin-left: 3rem;
+    object-fit: contain;
+    width: 3.75rem;
+    height: 3.99rem;
+}
+
+.texto-album {
+    font-size: 1.2rem;
+}
+
+.a-homepage {
+    text-decoration: none;
+    color: white;
+}
+
+.a-homepage-register {
+    text-decoration: none;
+
+}
+
+.a-politicas {
+    text-decoration: none;
+    color: #13aa52;
+}
+
+.btn-music {
+    background-color: #13aa52;
+}
